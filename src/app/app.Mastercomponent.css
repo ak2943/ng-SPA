@@ -1,0 +1,136 @@
+
+html, body{
+    margin:0;
+    padding: 0;
+    width: 100%;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+
+header{
+    width: 100%;
+}
+
+nav{
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    line-height: 60px;
+    min-height: 9vh;
+    align-items: center;
+    background-color: #1f2022;
+
+}
+
+nav ul{
+    line-height: 40%;
+    list-style: none;
+    background: #00000000;
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 40px;
+    transition: 1s;
+    padding-top: 19px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 40px;
+}
+
+.title{
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    padding-left: 6rem; 
+    padding-top: 1rem;
+    color: #fff;
+    margin-left: 30px;
+}
+.basket{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 1.3rem;
+    padding-left: 6rem;
+    color: #c07dff;
+}
+
+.account{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 1.2rem;
+    padding-right: 5rem;
+    color: #fff
+}
+
+.account:hover{
+    color: #c07dff;
+}
+
+.change-color {
+    color: #c07dff;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 25px;
+    transition: color 0.3s ease-in-out;
+
+}
+
+nav a:hover{
+    color:#c07dff;
+}
+
+nav a:focus{
+    color: #c07dff;
+}
+
+.sidebar{
+    width:7%;
+    height: 100%;
+    padding-top: 3%;
+    box-sizing: border-box;
+    position: fixed;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    transition: width 0.3s ease; 
+}
+
+.sidebar a{
+    display: inline-block;
+    padding-bottom: 2rem;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 1rem;
+    color:black;
+    transition: color 0.3s ease-in-out;
+    height: 2rem;
+    font-size: 18px;
+}
+
+.sidebar a hr{
+   color: black;
+}
+
+.sidebar :hover{
+    color:#c07dff;
+    
+}
+
+.sidebar a:focus{
+    color: #c07dff;
+} 
